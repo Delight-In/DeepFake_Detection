@@ -51,8 +51,4 @@ Upon training, the model achieved a validation accuracy of approximately 81% and
    cd deepfake-detection-inceptionv3
    ```
 
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
