@@ -55,7 +55,4 @@ Upon training, the model achieved a validation accuracy of approximately 81% and
    ```bash
    pip install -r requirements.txt
    ```
-   
-## Acknowledgments
-- The authors of InceptionV3 and contributors to the datasets used in this project.
-- Community resources for deep learning best practices and tutorials.
+
