@@ -1,17 +1,18 @@
 # Deepfake Detection Using InceptionV3
 
 ## Project Description
-This project aims to develop a deep learning model for detecting deepfake images by leveraging the InceptionV3 architecture. The model is trained to classify Images/Videos as either "fake" or "real," utilizing a dataset comprising deepfake and authentic images/Videos.
+This project aims to develop a deep learning model for detecting deepfake images by leveraging the InceptionV3 architecture. The model is trained to classify Images as either "fake" or "real," utilizing a dataset comprising deepfake and authentic images.
 
 ## Key Features
 - **Data Preprocessing**: 
-  - Images/frames are preprocessed using the `ImageDataGenerator` to normalize pixel values and augment the dataset, enhancing model robustness.
+  - Images are preprocessed using the `ImageDataGenerator` to normalize pixel values and augment the dataset, enhancing model robustness.
 
 - **Transfer Learning**: 
   - The model employs transfer learning by initializing InceptionV3 with pretrained weights from ImageNet, allowing the model to leverage existing feature extraction capabilities.
 
 - **Model Architecture**: 
   - The architecture includes several layers:
+    - InceptionV3
     - Global Average Pooling
     - Dense layers with batch normalization
     - Dropout layers to prevent overfitting
